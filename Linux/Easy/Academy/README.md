@@ -43,7 +43,7 @@ Just add the hostname `academy.htb` in the host file then access the `http://aca
 
 # Website
 
-![[Pasted image 20210505141306.png]]
+![alt text](Writeup/Academy/website.png)
 
 List of existing pages and folders with gobuster.
 
@@ -75,24 +75,24 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 
 We create an account on http://academy.htb/register.php, then we intercept the request and we notice a `roleid` parameter. Let's change it to 1.
 
-![[Pasted image 20210505142433.png]]
+![alt text](Writeup/Academy/roleid.png)
 
 Changing the `roleid` parameter create an admin account instead of a user account.
 We can connect to the admin page : http://academy.htb/admin.php
 
-![[Pasted image 20210505142225.png]]
+![alt text](Writeup/Academy/admin.png)
 
 We obtain a subdomain name of the website : `dev-staging-01.academy.htb`
 
 # Subdomain
 
-![[Pasted image 20210505143039.png]]
+![alt text](Writeup/Academy/subdomain.png)
 
 This is `Laravel's debug mode`. There is an `msf exploit`.
 
 # Metasploit
 
-![[Pasted image 20210505144026.png]]
+![alt text](Writeup/Academy/msf.png)
 
 # Find Credentials
 
@@ -128,7 +128,7 @@ $ cat /var/log/audit/* | grep 'comm="su"'
 type=TTY msg=audit(1597199293.906:84): tty pid=2520 uid=1002 auid=0 ses=1 major=4 minor=1 comm="su" data=6D7262336E5F41634064336D79210A
 ```
 
-![[Pasted image 20210505151114.png]]
+![alt text](Writeup/Academy/hex.png)
 
 We can connect with this password on the `mrb3n` account.
 
@@ -149,7 +149,7 @@ User mrb3n may run the following commands on academy:
 
 https://gtfobins.github.io/gtfobins/composer/
 
-![[Pasted image 20210505151402.png]]
+![alt text](Writeup/Academy/gtfobins.png)
 
 ## Exploit
 
