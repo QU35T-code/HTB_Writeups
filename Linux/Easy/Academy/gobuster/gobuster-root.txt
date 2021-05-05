@@ -1,0 +1,7 @@
+/index.php            (Status: 200) [Size: 2117]
+/images               (Status: 301) [Size: 311] [--> http://academy.htb/images/]
+/home.php             (Status: 302) [Size: 55034] [--> login.php]
+/login.php            (Status: 200) [Size: 2627]
+/register.php         (Status: 200) [Size: 3003]
+/admin.php            (Status: 200) [Size: 2633]
+/config.php           (Status: 200) [Size: 0]
