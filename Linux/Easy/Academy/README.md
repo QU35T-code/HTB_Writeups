@@ -37,7 +37,7 @@ Nmap done: 1 IP address (1 host up) scanned in 8.90 seconds
 
 Nmap tells us that the site is redirected to `http://academy.htb/`, we can verify this by intercepting the request.
 
-![[Pasted image 20210505140835.png]]
+![alt text](Writeup/Academy/burp.png)
 
 Just add the hostname `academy.htb` in the host file then access the `http://academy.htb/` page.
 
