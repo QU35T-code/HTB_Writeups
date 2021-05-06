@@ -1,5 +1,19 @@
 # HTB Writeups
 
-- Linux Easy
+## Machines
+
+### Linux
+
+#### Easy
+
 * Postman
 * Academy
+
+
+## Challenges
+
+### Web
+
+#### Easy
+
+* baby interdimensional internet
