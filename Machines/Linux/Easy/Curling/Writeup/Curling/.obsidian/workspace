@@ -1,29 +1,32 @@
 {
   "main": {
-    "id": "9cab80618daddd99",
+    "id": "b3107c7ebc78c7c6",
     "type": "split",
     "children": [
       {
-        "id": "b735c99d0b5be02e",
+        "id": "aeb49b6d34f5d8f2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "preview"
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5a852b81af6ff9e5",
+    "id": "32366591ee970546",
     "type": "split",
     "children": [
       {
-        "id": "ac0423a5060a73b2",
+        "id": "7d8c03e67bea60d7",
         "type": "tabs",
         "children": [
           {
-            "id": "4803fe55e0bf11db",
+            "id": "eedab30e373e9dd8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -31,7 +34,7 @@
             }
           },
           {
-            "id": "7715fbd5237f8cf3",
+            "id": "dc722bee92cb4ea3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,19 +55,20 @@
     "width": 300
   },
   "right": {
-    "id": "bdd451e8c09283b3",
+    "id": "3710b6955c44faa2",
     "type": "split",
     "children": [
       {
-        "id": "c39da6202c624426",
+        "id": "b0616e5ff97076ad",
         "type": "tabs",
         "children": [
           {
-            "id": "2d115d7a43fa7635",
+            "id": "7af49a774974fbd8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b735c99d0b5be02e",
+  "active": "aeb49b6d34f5d8f2",
   "lastOpenFiles": [
-    "WriteUp.md",
-    "25 - Attachments.md",
-    "10 - HTTP.md",
+    "README.md",
+    "30 - Shadow file.md",
+    "25 - Passwd file.md",
+    "20 - Escalation.md",
+    "15 - Shell.md",
+    "10 - Joomla.md",
     "05 - Enumeration.md",
-    "burp_error.png",
-    "50 - Shadow file.md",
-    "45 - Passwd file.md",
-    "40 - Escalation.md",
-    "35 - Shell.md",
-    "30 - PDF.md"
+    "00 - Credentials.md",
+    "Untitled.md",
+    "Pasted image 20210517133232.png"
   ]
 }
