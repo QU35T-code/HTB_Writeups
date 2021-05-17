@@ -1,0 +1,3 @@
+/wp                   (Status: 301) [Size: 295] [--> http://chaos/wp/]
+/javascript           (Status: 301) [Size: 303] [--> http://chaos/javascript/]
+/server-status        (Status: 403) [Size: 293]
