@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
-            "mode": "preview"
+            "file": "all.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "all.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
   },
   "active": "aeb49b6d34f5d8f2",
   "lastOpenFiles": [
-    "README.md",
+    "all.md",
     "30 - Shadow file.md",
     "25 - Passwd file.md",
     "20 - Escalation.md",
@@ -96,7 +96,7 @@
     "10 - Joomla.md",
     "05 - Enumeration.md",
     "00 - Credentials.md",
-    "Untitled.md",
-    "Pasted image 20210517133232.png"
+    "README.md",
+    "Untitled.md"
   ]
 }
