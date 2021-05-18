@@ -13,6 +13,11 @@
 #### Medium
 
 * Chaos
+* Olympus
+
+#### Hard
+
+* Monitors (Active)
 
 ## Challenges
 
